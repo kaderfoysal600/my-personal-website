@@ -27,11 +27,11 @@ img{
     width: 100%;
 }
 .name-color{
-    color: orange;
+    color: #E54B4B;
 }
 .button-color{
     text-decoration: none;
-    background-image: linear-gradient(180deg,tomato,lightSalmon);
+    background-image: linear-gradient(45deg,blue,cyan);
     padding: 10px 30px;
     border-radius: 5px;
     color:white;
@@ -93,4 +93,41 @@ section{
     color:white;
     font-weight: 500;
     font-size: 13px;
+}
+.contact{
+    margin: -15% 30%;
+}
+.form-control{
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    
+    font-size: 18px;
+    margin-bottom: 16px;
+    
+}
+input{
+    height: 45px;
+}
+#form-control-submit{
+    background-color:#534FD5;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 250px;
+    text-align: center;
+    margin-left: 28%;
+    border-radius: 10px;
+    color: white;
+
+}
+.contact-title{
+    text-align: center;
+    color: rgb(214, 1, 1);
+    font-weight: 800;
+}
+.contactP{
+    text-align: center;
 }
